@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(67, 61, 61);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-y: hidden ;
+}
+.container{
+    width: 60%;
+    background-color: beige;
+    margin: 5% auto;
+    text-align: center;
+
+}
+input[type=date]{
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.btn{
+    margin: 10px auto;
+}
+.btn-1{
+    background-color: coral;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btn-1:hover{
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: gold;
+    box-shadow: 1px 4px 3px 2px grey;
+    transition: 0.3s ease-in;
+
+}
+.btn-1:nth-child(2){
+    margin-left: 100px;
+}
+/**Table Design starts here**/
+.output span{
+    font-size: 1.4rem;
+    background-color: #3f3f3f;
+    padding: 5px 10px;
+    color: #f2f2f2;
+}
+.tab{
+    margin: 5px auto;
+    padding: 5px;
+    color: #f6f2d2;
+}
+
+th{
+    background-color: rgb(238, 108, 9);
+    padding: 2px;
+}
+.output td>input{
+    width: 95%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+th,td{
+    border: 2px solid white;
+}
+.extraInfo{
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+.extra{
+    margin: 7px auto;
+}
+.extra span{
+    background-color: rgb(234, 141, 47);
+    display: inline-block;
+    width: 20%;
+    padding: 2px 0;
+}
+.extra input[tyep=text]{
+    display: inline;
+    border: 2px solid rgb(234, 141, 47);
+}
+/**Table Design ends here**/
+.nextBirth input{
+    text-align: center;
+    font-size: 1rem;
+}
+.extra input{
+    text-align: center;
+    font-size: 1rem;
+}
