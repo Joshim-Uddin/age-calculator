@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 body{
     background-color: rgb(67, 61, 61);
@@ -100,6 +101,7 @@ th,td{
     font-size: 1rem;
 }
 @media screen and (max-width:412px) {
+    
     .container{
         /* display: flex;
         flex-direction: row;
@@ -135,9 +137,5 @@ th,td{
     #clr, #currentDate, #birthday{
         margin: 0 auto;
     }
-    
-}
-
-@media screen and(min-width: 625px){
     
 }
